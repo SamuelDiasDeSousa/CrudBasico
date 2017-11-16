@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- cor de fundo do splash -->
+    <color name="startColorSplashBG">#d4ece6</color>
+    <color name="centerColorSplashBG">#8bead9</color>
+    <color name="endColorSplashBG">#3be2b0</color>
+
+    <!-- cor de fundo do mainActivity -->
+    <color name="mainActivityBG">#f2f2f2</color>
+</resources>

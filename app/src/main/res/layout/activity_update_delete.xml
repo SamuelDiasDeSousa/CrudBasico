@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.br.samuel.crudbasico.UpdateDelete">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="-10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome:"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/edtNameUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefone:"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/edtPhoneUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:inputType="phone"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/edtMailUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:inputType="textEmailAddress"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atualizar"
+            android:textSize="20dp"
+            android:width="150dp"
+            android:height="50dp"
+            />
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deletar"
+            android:textSize="20dp"
+            android:width="150dp"
+            android:height="50dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

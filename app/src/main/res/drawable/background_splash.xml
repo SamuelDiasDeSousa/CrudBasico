@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- layer-list : lista de camadas para sobrepor a activity , e é referenciado no styles -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="300"
+                android:startColor="@color/startColorSplashBG"
+                android:centerColor="@color/centerColorSplashBG"
+                android:endColor="@color/endColorSplashBG"
+                />
+        </shape>
+    </item>
+    <item>
+        <!-- imagem no centro -->
+        <bitmap
+            android:src="@mipmap/logo_crud"
+            android:gravity="center"
+            />
+    </item>
+</layer-list>

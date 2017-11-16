@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    android:rowCount="4"
+    >
+
+    <LinearLayout>
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: "
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:id="@+id/idPessoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID" />
+    </LinearLayout>
+
+    <LinearLayout>
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome: "
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:id="@+id/nomePessoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOME" />
+    </LinearLayout>
+
+    <LinearLayout>
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefone:"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:id="@+id/phonePessoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHONE"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout>
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:id="@+id/mailPessoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAIL" />
+    </LinearLayout>
+
+</GridLayout>
